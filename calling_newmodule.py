@@ -1,5 +1,9 @@
- # Calling created moduel file: newmodule.py
+# Calling created moduel file: newmodule.py
   
-  import newmodule
+import newmodule
   
-  newmodule.greeting("John")
+newmodule.greeting("John")
+
+a = newmodule.person1["age"]
+
+print(a)
