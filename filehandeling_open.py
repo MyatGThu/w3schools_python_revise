@@ -22,3 +22,13 @@ In addition you can specify if the file should be handled as binary or text mode
 f = open("demofile.txt")
 
 f = open("demofile.txt", "rt")
+
+# read() method for reading content of file.
+
+print(f.read())
+
+# return one line by using readline() method.
+
+print(f.readline())
+f.close() # close file after reading it.
+
