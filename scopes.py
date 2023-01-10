@@ -8,7 +8,7 @@ inside the function.
 
 def myfunc():
   x = 30
-  def myinnterfunc(): #calling variable inside function.
+  def myinnerfunc(): #calling variable inside function.
     print(x)
   myinnerfunc()
 
