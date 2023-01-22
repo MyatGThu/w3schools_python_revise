@@ -1,7 +1,8 @@
-import matplotllib.pyplot as plt
+import matplotlib
+import matplotlib.pyplot as plt
 import numpy as np
 
-xpoints = np.arrary([1,8])
+xpoints = np.array([1,8])
 ypoints = np.array([3,10])
 
 plt.plot(xpoints, ypoints)

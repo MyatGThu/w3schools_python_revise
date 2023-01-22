@@ -1,3 +1,4 @@
+import matplotlib
 import matplotlib.pyplot as plt # pip install matplotlib
 
 print(matplotlib.__version__) #checking version of installed matplotlib
