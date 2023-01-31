@@ -8,7 +8,7 @@ inside the function.
 
 def myfunc():
   x = 30
-  def myinnterfunc(): #calling variable inside function.
+  def myinnerfunc(): #calling variable inside function.
     print(x)
   myinnerfunc()
 
@@ -20,6 +20,7 @@ x = 3000
 def myfunc():
   x = 200
   print(x)
+
 myfunc() #prints internal defined x = 200
 print(x) #prints global 3000.
 
@@ -27,7 +28,7 @@ print(x) #prints global 3000.
 
 def myfunc():
   global y
-  y = 3000
+  y = 4000
 
 myfunc()
 print(y)
