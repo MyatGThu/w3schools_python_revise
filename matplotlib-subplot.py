@@ -5,7 +5,8 @@ import numpy as np
 x = np.array([0, 1, 2, 3])
 y = np.array([3, 8, 1, 10])
 
-plt.subplot(1, 2, 1)
+plt.subplot(1, 2, 1) #subplot function allows double graphs to be printed out 
+                    #the syntax is to tell that the figure has 1 row, 2 columns and this plot is the first one.
 plt.grid(color = "black", linestyle = '--', linewidth = 0.5)
 plt.plot(x,y)
 
@@ -13,7 +14,7 @@ plt.plot(x,y)
 x = np.array([0, 1, 2, 3])
 y = np.array([10, 20, 30, 40])
 
-plt.subplot(1, 2, 2)
+plt.subplot(1, 2, 2) #the syntax is to tell that the figure is 1 row, 2 colums and the plot is 2nd one.
 plt.grid(color = "black", linestyle = '--', linewidth = 0.5)
 plt.plot(x,y)
 
