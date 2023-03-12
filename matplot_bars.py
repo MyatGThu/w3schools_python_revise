@@ -12,3 +12,11 @@ plt.show()
 
 plt.barh(x,y)
 plt.show()
+
+# Change width of the bars
+
+plt.bar(x,y, width = 0.1)
+plt.show()
+
+plt.barh(x,y, height = 0.1)
+plt.show()
